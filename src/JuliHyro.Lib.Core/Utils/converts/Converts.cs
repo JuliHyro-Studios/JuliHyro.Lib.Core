@@ -12,7 +12,7 @@ namespace JuliHyro.Lib.Core.Utils.converts
             Float,
             Decimal,
             Bool,
-            DateTime
+            DateTime 
         }
         public enum OutputConvertType
         {

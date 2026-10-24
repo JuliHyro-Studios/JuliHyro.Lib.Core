@@ -4,5 +4,13 @@
         <name>JuliHyro.Lib.Core</name>
     </assembly>
     <members>
+        <member name="M:JuliHyro.Lib.Core.Utils.converts.Converts.Convert(JuliHyro.Lib.Core.Utils.converts.Converts.InputConvertType,JuliHyro.Lib.Core.Utils.converts.Converts.OutputConvertType,System.String)">
+            <summary>
+            Converts the input value to the specified output type.
+            </summary>
+            <param name="inputType">The type of the input value.</param>
+            <param name="outputType">The desired output type.</param>
+            <param name="inputValue">The value to be converted.</param>
+        </member>
     </members>
 </doc>

@@ -2,4 +2,7 @@
   <Folder Name="/src/">
     <Project Path="src/JuliHyro.Lib.Core/JuliHyro.Lib.Core.csproj" />
   </Folder>
+  <Folder Name="/src/JuliHyro.Lib.Core.TestProjects/">
+    <Project Path="src/JuliHyro.Lib.Core.TestProjects/JuliHyro.Lib.Core.TestProjects/JuliHyro.Lib.Core.TestProjects.csproj" />
+  </Folder>
 </Solution>
