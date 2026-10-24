@@ -16,6 +16,7 @@
 		<RepositoryType>git</RepositoryType>
 		<PackageReleaseNotes>See more release notes at https://github.com/JuliHyro-Studios/JuliHyro.Lib.Core/releases</PackageReleaseNotes>
 		<Copyright>Apache-2.0</Copyright>
+		<PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
 		<GenerateDocumentationFile>true</GenerateDocumentationFile>
@@ -25,9 +26,11 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<None Update="README.md"
-			  Pack="true"
-			  PackagePath="\" />
+		<None Update="README.md" Pack="true" PackagePath="\" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Folder Include="Assets\" />
 	</ItemGroup>
 
 </Project>
