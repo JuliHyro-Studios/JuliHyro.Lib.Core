@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFrameworks>net10.0;net9.0;net8.0</TargetFrameworks>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+
+		<PackageId>JuliHyro.Lib.Core</PackageId>
+		<Version>1.0.0</Version>
+		<Company>JuliHyro Studios</Company>
+		<Authors>JuliHyro Studios</Authors>
+		<PackageTags>JuliHyro;Library;Core;Lib API</PackageTags>
+		<Description>JuliHyro.Lib.Core is a library that provides core functionalities for JuliHyro Projects.</Description>
+		<RepositoryUrl>https://github.com/JuliHyro-Studios/JuliHyro.Lib.Core</RepositoryUrl>
+		<PackageProjectUrl>https://github.com/JuliHyro-Studios/JuliHyro.Lib.Core</PackageProjectUrl>
+		<RepositoryType>git</RepositoryType>
+		<PackageReleaseNotes>See more release notes at https://github.com/JuliHyro-Studios/JuliHyro.Lib.Core/releases</PackageReleaseNotes>
+		<Copyright>Apache-2.0</Copyright>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<GenerateDocumentationFile>true</GenerateDocumentationFile>
+		<DocumentationFile>$(OutputPath)$(AssemblyName).xml</DocumentationFile>
+		<NoWarn>$(NoWarn);1591</NoWarn>
+		<PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Update="README.md"
+			  Pack="true"
+			  PackagePath="\" />
+	</ItemGroup>
+
+</Project>

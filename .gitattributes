@@ -1,0 +1,40 @@
+
+# Automatically normalize line endings for text files
+* text=auto
+
+# C# source files
+*.cs text diff=csharp
+
+# Project files
+*.csproj text
+*.sln text
+*.slnx text
+*.props text
+*.targets text
+
+# Documentation
+*.md text
+*.txt text
+
+# Configuration files
+*.json text
+*.xml text
+*.yml text
+*.yaml text
+*.editorconfig text
+
+# Scripts
+*.ps1 text
+*.bat text
+*.cmd text
+
+# Binary files
+*.dll binary
+*.exe binary
+*.pdb binary
+*.nupkg binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
