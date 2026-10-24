@@ -30,8 +30,9 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Folder Include="Assets\" />
-	  <Folder Include="src\" />
-	</ItemGroup>
+    <None Include="..\..\README.md"
+          Pack="true"
+          PackagePath="/" />
+</ItemGroup>
 
 </Project>
