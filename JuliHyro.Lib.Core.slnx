@@ -1,3 +1,5 @@
 <Solution>
-  <Project Path="JuliHyro.Lib.Core/JuliHyro.Lib.Core.csproj" />
+  <Folder Name="/src/">
+    <Project Path="src/JuliHyro.Lib.Core/JuliHyro.Lib.Core.csproj" />
+  </Folder>
 </Solution>
